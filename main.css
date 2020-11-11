@@ -1,12 +1,19 @@
 body {
     margin: 0;
+    padding: 0;
     background-color: royalblue;
+    font-family: Arial, Helvetica, sans-serif;
 }
+h1 {
+    text-align: left;
+}
+
+
 
 .navbar{
     background-color: white;
     padding: 15px;
-    text-align: right;
+    text-align: left;
 }
 
 .nav-link {
@@ -15,3 +22,35 @@ body {
     padding: .5em;
     border-radius: 10px;
 }
+
+#registerInput {
+    background-color: white;
+    border-radius: 5px;
+    width: 300px;
+    padding: 20px;
+    margin: 80px auto;
+    display: block;
+    text-align: center;
+    border: 1px solid black;
+    box-shadow: 5px blue ;
+}
+
+#registerInputDiv
+    {
+    text-align: center;   
+    }
+
+.input {
+    background-color: white;
+    display: block;
+}
+
+#registerInput input, #registerInput button {
+    margin: 10px 5px;
+    width: 90%;
+    padding: 7px;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
